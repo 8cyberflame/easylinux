@@ -11,6 +11,9 @@ sudo dpkg -i easylinux_1.0_all.deb
 sudo apt --fix-broken install
 🚀 How to Start EasyLinux
 
+you also need python3
+sudo apt install python3
+
 After installation, open a terminal and type:
 
 easylinux
