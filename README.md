@@ -1,48 +1,28 @@
-📥 Installation (Double Click Method)
-Download the .deb file from Releases
-Go to your Downloads folder
-Double-click the file
-Choose “Install” (Software Installer or GDebi)
-Wait for installation to finish
+EasyLinux
+ONLY WORKS ON DEBIA?UBUNTU BASED SYSTEMS. 
 
-If double-click does not work, install manually:
+INSTALL (Double Click)
+Download the .deb file and double-click it, then click Install.
 
+If it does not work, use terminal:
 sudo dpkg -i easylinux_1.0_all.deb
 sudo apt --fix-broken install
-🚀 How to Start EasyLinux
 
-you also need python3
+REQUIREMENTS
+You need Python 3:
 sudo apt install python3
 
-After installation, open a terminal and type:
-
+START
+Open terminal and type:
 easylinux
 
-That’s it — the program will start.
+HOW TO USE
+help        - show commands
+install     - install app
+uninstall   - remove app
+update      - update system
+clear       - clear screen
+reboot      - restart system
+shutdown    - power off
+exit        - quit program
 
-🧠 How to Use EasyLinux
-
-After launching, you will see:
-
-input:
-
-Type commands like:
-
-🔹 System commands
-help → show all commands
-update → update system (APT + Flatpak)
-version → show system info
-🔹 App management
-install → install a package
-uninstall → remove a package
-🔹 System control
-reboot → restart system
-shutdown → power off system
-🔹 Interface
-clear → clear screen
-banner → show logo again
-linux → exit program
-⚠️ Notes
-Works on Debian/Ubuntu-based systems
-Requires Python 3
-Flatpak is optional but recommended
